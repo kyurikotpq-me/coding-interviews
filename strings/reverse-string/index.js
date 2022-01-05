@@ -30,7 +30,7 @@ function reverse(str) {
 //   const chars = str.split(""); 
 
 //   return chars.length > 0 
-//     ? chars.reduce((prev, current) => current + prev)
+//     ? chars.reduce((accumulator, current) => current + accumulator)
 //     : "";
 
   /**
