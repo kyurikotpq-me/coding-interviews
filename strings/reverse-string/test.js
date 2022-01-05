@@ -13,7 +13,7 @@ test("Reversing 'k' should give 'k'", () => {
   expect(reverse("k")).toEqual("k");
 });
 
-test("Reversing 'lmao' should give '  oaml'", () => {
+test("Reversing 'lmao  ' should give '  oaml'", () => {
   expect(reverse("lmao  ")).toEqual("  oaml");
 });
 
