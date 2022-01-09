@@ -5,6 +5,10 @@ test("anagrams function exists", () => {
   expect(typeof anagrams).toEqual("function");
 });
 
+test('"a" is an anagram of "a"', () => {
+  expect(anagrams("a", "a")).toBeTruthy();
+});
+
 test('"lmao" is an anagram of "amol"', () => {
   expect(anagrams("lmao", "amol")).toBeTruthy();
 });

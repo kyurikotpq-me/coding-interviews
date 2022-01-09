@@ -38,7 +38,8 @@ function matchAndCount(str, regex, returnStr) {
  *
  * Only consider alphabets and numbers, not spaces
  * or punctuation. Consider capital letters to be
- * the same as lower case.
+ * the same as lower case. You can assume the given strings
+ * are non-empty (i.e. str.length > 0)
  *
  * @param {string} strA
  * @param {string} strB
@@ -46,6 +47,7 @@ function matchAndCount(str, regex, returnStr) {
  */
 function anagrams(strA, strB) {
   // With help from https://regex101.com
+  // (just to make sure—kinda rusty with RegEx)
   const alphanumericRegex = /[a-z\d]/g;
 
   // Get the RegEx matches for each string
